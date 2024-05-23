@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+</head>
+<body>
+      <h2>Simple Html Form</h2>
+      <form> 
+        <label for="fname">Enter your name</label>
+        <input type="text" id="fname" name="fname">
+        <br> <br>
+       
+        <label for="mail">Enter your mail id</label>
+        <input type="email" id="mail" name="mymail">
+        <br><br>
+        <label for="pass">Enter your password</label>
+        <input type="password" id="pass" name="pass">
+        <br><br>
+        <label for="dob">Enter your birth date</label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+        <p>Choose your Gender</p>
+        
+        <input type="radio" id="male" name="stream" value="m"> 
+        <label for="science">Male</label>
+        
+        <input type="radio" id="female" name="stream" value="f"> 
+        <label for="arts">Female</label>
+        
+        <input type="radio" id="others" name="stream" value="o">
+        <label for="commerce">others</label><br>
+        <br> 
+        <label for="stream">Choose your stream</label> 
+        <select id="stream" name="str">
+        <option value="pcm">PCM</option>  
+        <option value="pcb">PCB</option> 
+        <option value="pcmb" selected>PCMB</option> 
 
+
+        </select>
+        <br><br>
+        <p>Programming Languages Known</p>
+     
+        <input type="checkbox" id="c" name="c" value="c">
+        <label for="c">C</label>
+        <input type="checkbox" id="cpp" name="cpp" value="cpp">
+        <label for="cpp">C++</label>
+        <input type="checkbox" id="j" name="j" value="j">
+        <label for="j">Java</label>
+        <input type="checkbox" id="p" name="p" value="p">
+        <label for="p">Python</label>
+
+
+
+
+        <br><br> 
+        <label for="marks"> Upload SSC Marksheet   </label> 
+        <input type="file" id="marks" name="mark" >
+        <br><br>
+        <textarea name="txt" rows="5" cols="50">Give Your Feedback</textarea>
+        <br><br>
+       
+
+        <input type="submit" value="submit now">
+        <input type="reset" value="reset now">
+
+
+
+
+
+      </form>
+
+
+
+ 
+</body>
+</html>
